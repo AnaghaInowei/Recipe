@@ -84,8 +84,7 @@ span {
 }
 
 #time {
-    height: 100px;
-    width: 370px;
+    padding-bottom: 15px;
     background-color: hsl(330, 100%, 98%);
     margin-top: 20px;
     margin-left: 15px;
@@ -99,6 +98,14 @@ span {
 hr {
     margin: 15px;
     color: hsl(30, 18%, 87%);
+}
+
+.halo {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 0;
+    margin-top: 10px;
+    
 }
 
 #facts {
@@ -115,9 +122,16 @@ hr {
 .food {
     text-align: left;
     width: 40%;
+    margin-left: 20px;
 }
 
 .gram {
     text-align: center;
     width: 25%;
+}
+
+.nutrient {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
